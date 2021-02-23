@@ -1,0 +1,310 @@
+.App {
+  text-align: center;
+}
+*{
+  margin: 0;
+}
+* a{
+  text-decoration: none;
+}
+.flex{
+  display: flex;
+}
+.image_college{
+  background-color: black;
+  height: 500px;
+  width: 100%;
+  display: flex;
+  z-index: -1;
+  justify-content: center;
+  align-items: center;
+}
+.image_college h3{
+  color: #fff;
+  font-size: 30px;
+  
+}
+.profile_container{
+  border-radius: 30px;
+  background-color:#fff;
+  position: absolute;
+  width: 100%;
+  top: 450px;
+}
+.Trainer_name{
+  margin-top: 30px;
+  font-size: 30px;
+}
+.justify-around{
+  justify-content: space-between;
+}
+.container1{
+  height: 60px;
+}
+.exp{
+  align-items: center;
+}
+.exp .fiveplus{
+  font-size: 30px;
+  margin-left: 50px;
+}
+.exp p{
+  font-size: 20px;
+  margin-left: 10px;
+}
+.divPrice{
+  display: flex;
+  align-items: center;
+}
+.divPrice .price{
+  margin-right: 40px;
+  font-size: 30px;
+}
+.certified_div{
+  display: flex;
+  margin-top: 20px;
+}
+.certified_div p{
+  font-size: 30px;
+  margin-left: auto;
+  margin-right: 40px;
+}
+.aboutmeDiv{
+  display: flex;
+  flex-direction: column;
+  align-items: baseline;
+  margin-top: 20px;
+}
+.aboutmeHead{
+  font-size: 30px;
+  margin-left: 30px;
+  margin-bottom: 20px;
+}
+.aboutmeDiv p{
+  text-align:left;
+  font-size: 19px;
+  padding: 10px 30px;
+}
+
+.expertiseTab{
+  display: flex;
+  flex-direction: column;
+  align-items: baseline;
+  margin-top: 30px;
+}
+.expertiseTab h3{
+  font-size: 30px;
+  margin-left: 30px;
+  margin-bottom: 30px;
+}
+
+.expertiseItems{
+  display: flex;
+  align-items: center;
+  width: 100%;
+  justify-content: space-around;
+}
+
+.expertiseItems a{
+  display: inline-block;
+  color: #5b4b64;
+  border: solid 3px #5b4b64;
+  border-radius: 20px;
+  padding: 5px 5px;
+}
+
+.MCEtab{
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+.MCEtab h3{
+  font-size: 30px;
+  margin-left: 30px;
+}
+.MCEtab p{
+  margin-top: 20px;
+  font-size: 19px;
+  padding: 10px 30px;
+}
+
+.MYL{
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  padding-left: 30px;
+  margin-top: 30px;
+}
+.MYL h3{
+  font-size: 30px;
+  margin-bottom: 30px;
+}
+.MYLp p{
+  font-size: 19px;
+}
+
+.ModeOT{
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  margin-left: 30px;
+  margin-top: 30px;
+}
+.ModeOT h3{
+  font-size: 30px;
+  margin-bottom: 30px;
+}
+.MOTItems p{
+  font-size: 19px;
+}
+.lan{
+  display: flex;
+  align-content: center;
+}
+.lan img{
+  width: 20px;
+  height: 20px;
+  align-self: center;
+  margin-right: 15px;
+}
+.Pricing{
+  display: flex;
+  flex-direction: column;
+  
+}
+.info_img{
+  width: 35px;
+  height: 35px;
+  align-self: center;
+  margin-left: 15px;
+}
+.headprice{
+  font-size: 30px;
+  align-self: baseline;
+  margin-left: 30px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.Price1{
+  width: 350px;
+}
+.Price2{
+  width: 350px;
+}
+.Price3{
+  width: 350px;
+}
+.Pricing_items{
+  display: flex;
+  justify-content: space-around;
+}
+.plan_title{
+  border-radius: 30px 30px 0 0;
+  background: rgb(184,223,240);
+  background: linear-gradient(90deg, rgba(184,223,240,1) 35%, rgba(166,144,190,1) 100%);
+}
+.plan_title h3{
+  font-size: 20px;
+  padding: 15px 7px;
+}
+.sessiondetails{
+  color: #72777b;
+  border-radius: 0 0 30px 30px;
+  background: rgb(224,243,250);
+  background: linear-gradient(90deg, rgba(224,243,250,1) 35%, rgba(244,237,255,1) 100%);
+}
+.detail1{
+  padding: 10px 10px;
+}
+.detail2{
+  padding: 10px 10px;
+}
+.detail1 span{
+  color: #643f8c;
+}
+.detail2 span{
+  color: #2ca1d6;
+}
+
+.avail_tab h3{
+  font-size: 30px;
+  text-align: left;
+  margin-left: 30px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.avail_items{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 10px 20px 10px;
+}
+.avail_items a{
+  display: inline-block;
+  color: #5b4b64;
+  border: solid 3px #5b4b64;
+  border-radius: 20px;
+  padding: 5px 5px;
+  height: 29px;
+  width: 170px;
+  margin-top: 10px;
+}
+
+.TD_tab h3{
+  margin: 30px 0 30px 30px;
+  font-size: 30px;
+  text-align: left;
+}
+.TDp p{
+  text-align: left;
+  margin-left: 30px;
+  font-size: 19px;
+}
+.Interest_tab{
+  display: flex;
+  flex-direction: column;
+}
+.Interest_tab h3{
+  font-size: 30px;
+  text-align: left;
+  margin: 30px 0 30px 30px;
+}
+.Interest_Items{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 10px 30px 10px 30px;
+}
+.Interest_Items a{
+  display: inline-block;
+  color: #5b4b64;
+  border: solid 3px #5b4b64;
+  border-radius: 20px;
+  padding: 5px 5px;
+  margin-top: 10px;
+}
+
+.final_buttons{
+  display: flex;
+  margin-top: 30px;
+  margin-bottom: 50px;
+  justify-content: space-around;
+}
+
+.join_button{
+  font-size: 30px;
+  color: #fff;
+  border-radius: 20px;
+  padding: 35px 30px;
+  background: rgb(110,72,144);
+background: linear-gradient(90deg, rgba(110,72,144,1) 35%, rgba(77,108,165,1) 100%);
+}
+.Book_Button{
+  font-size: 30px;
+  color: #fff;
+  border-radius: 20px;
+  padding: 35px 30px;
+  background: rgb(110,72,144);
+  background: linear-gradient(270deg, rgba(110,72,144,1) 35%, rgba(77,108,165,1) 100%);
+}
